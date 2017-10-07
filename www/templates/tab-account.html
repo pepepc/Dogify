@@ -1,0 +1,14 @@
+<ion-view   hasHeader view-title="Account">
+  <ion-nav-buttons side="secondary">
+    <button class="button" ng-click="doLogout()">
+        LOGOUT
+      </button>
+  </ion-nav-buttons>
+  <ion-content>
+    <ion-list>
+    <ion-toggle  ng-model="settings.enableFriends">
+        Enable Friends
+    </ion-toggle>
+    </ion-list>
+  </ion-content>
+</ion-view>
